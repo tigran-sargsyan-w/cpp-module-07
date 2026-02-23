@@ -2,19 +2,22 @@
 #include <string>
 #include "whatever.hpp"
 
-// class A {};
+// void showErrorCases()
+// {
+// 	class A {};
+// 	A x;
+// 	A y;
+// 	::min(x, y); // <- there will be an error here
+// 	::min(a, y); // <- there will be an error here
+// }
 
 int main(void)
 {
 	int a = 2;
 	int b = 3;
 
-    // A x;
-    // A y;
-    // ::min(x, y); // <- тут будет ошибка
-    // ::min(a, y); // <- тут будет ошибка
+	// showErrorCases(); // comment this line to avoid the error cases
 	
-
     ::swap(a, b);
 	std::cout << "a = " << a << ", b = " << b << std::endl;
 	std::cout << "min( a, b ) = " << ::min(a, b) << std::endl;
