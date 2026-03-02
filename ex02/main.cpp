@@ -4,14 +4,10 @@
 
 static void printIntArray(const Array<int>& arr)
 {
-	unsigned int i;
-
 	std::cout << "size = " << arr.size() << std::endl;
-	i = 0;
-	while (i < arr.size())
+	for (unsigned int i = 0; i < arr.size(); ++i)
 	{
 		std::cout << "arr[" << i << "] = " << arr[i] << std::endl;
-		i++;
 	}
 }
 
