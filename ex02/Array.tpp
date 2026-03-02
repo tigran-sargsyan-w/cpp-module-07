@@ -2,9 +2,7 @@
 # define ARRAY_TPP
 
 template <typename T>
-Array<T>::Array(void) : data(NULL), count(0)
-{
-}
+Array<T>::Array(void) : data(NULL), count(0) {}
 
 template <typename T>
 Array<T>::Array(unsigned int n) : data(NULL), count(n)
@@ -30,8 +28,6 @@ Array<T>::~Array(void)
 template <typename T>
 Array<T>& Array<T>::operator=(const Array& other)
 {
-	unsigned int i;
-
 	if (this == &other)
 		return *this;
 
@@ -43,12 +39,9 @@ Array<T>& Array<T>::operator=(const Array& other)
 		return *this;
 
 	data = new T[count];
-	i = 0;
-	while (i < count)
-	{
+	for (unsigned int i = 0; i < count; i++)
 		data[i] = other.data[i];
-		i++;
-	}
+ 	
 	return *this;
 }
 
