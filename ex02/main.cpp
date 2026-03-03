@@ -2,6 +2,10 @@
 #include <string>
 #include "Array.hpp"
 
+/**
+ * @brief Prints all elements of an integer Array.
+ * @param arr - Array to display.
+ */
 static void printIntArray(const Array<int>& arr)
 {
 	std::cout << "size = " << arr.size() << std::endl;
@@ -9,6 +13,10 @@ static void printIntArray(const Array<int>& arr)
 		std::cout << "arr[" << i << "] = " << arr[i] << std::endl;
 }
 
+/**
+ * @brief Runs tests for Array constructors and operators.
+ * @return Exit status code.
+ */
 int main(void)
 {
 	Array<int> empty;
