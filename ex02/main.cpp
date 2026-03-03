@@ -6,9 +6,7 @@ static void printIntArray(const Array<int>& arr)
 {
 	std::cout << "size = " << arr.size() << std::endl;
 	for (unsigned int i = 0; i < arr.size(); ++i)
-	{
 		std::cout << "arr[" << i << "] = " << arr[i] << std::endl;
-	}
 }
 
 int main(void)
