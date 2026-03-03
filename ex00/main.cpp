@@ -2,6 +2,10 @@
 #include <string>
 #include "whatever.hpp"
 
+// /**
+//  * @brief Demonstrates error cases for min with non-comparable types.
+//  * This function is intentionally left unused to avoid compilation errors.
+//  */
 // void showErrorCases()
 // {
 // 	class A {};
@@ -11,6 +15,11 @@
 // 	::min(a, y); // <- there will be an error here
 // }
 
+/**
+ * @brief Runs a basic test for template utilities.
+ * Demonstrates swap, min and max with ints and strings.
+ * @return Exit status code.
+ */
 int main(void)
 {
 	int a = 2;
