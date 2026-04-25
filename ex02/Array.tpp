@@ -19,7 +19,7 @@ Array<T>::Array(unsigned int n) : data(NULL), count(n)
 	if (count == 0)
 		return;
 
-	data = new T[count]; // default-initialization for T
+	data = new T[count](); // default-initialization for T
 }
 
 /**
@@ -60,7 +60,7 @@ Array<T>& Array<T>::operator=(const Array& other)
 	if (count == 0)
 		return *this;
 
-	data = new T[count];
+	data = new T[count]();
 	for (unsigned int i = 0; i < count; i++)
 		data[i] = other.data[i];
  	
