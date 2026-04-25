@@ -19,7 +19,7 @@ Array<T>::Array(unsigned int n) : data(NULL), count(n)
 	if (count == 0)
 		return;
 
-	data = new T[count](); // default-initialization for T
+	data = new T[count](); // value-initialization for T
 }
 
 /**
