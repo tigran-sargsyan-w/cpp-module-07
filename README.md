@@ -1,6 +1,6 @@
 # C++ Module 07 – Templates 🧩📦
 
-✅ **Status**: Completed – all mandatory exercises  
+✅ **Status**: Completed – all exercises  
 🏫 **School**: 42 – C++ Modules (Module 07)  
 🏅 **Score**: (score)/100  
 
