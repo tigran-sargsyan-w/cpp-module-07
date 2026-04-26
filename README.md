@@ -2,7 +2,7 @@
 
 ✅ **Status**: Completed – all exercises  
 🏫 **School**: 42 – C++ Modules (Module 07)  
-🏅 **Score**: (score)/100  
+🏅 **Score**: 100/100  
 
 > *Function templates, template parameters, generic utilities (`swap/min/max`), applying a function to array elements (`iter`), and building a safe dynamic array class template (`Array<T>`).*
 
